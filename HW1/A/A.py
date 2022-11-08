@@ -1,2 +1,2 @@
 def solution(a):
-    return a
+    return a - 1

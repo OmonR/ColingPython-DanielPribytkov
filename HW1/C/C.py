@@ -1,3 +1,4 @@
 def solution(n, k):
-    ### YOUR CODE HERE ###
-    return
+    result = k//n
+    remains = k%n
+    return result, remains
