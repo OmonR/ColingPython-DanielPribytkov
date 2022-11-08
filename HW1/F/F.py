@@ -1,6 +1,7 @@
 def solution(n):
-    power = 1
-    while power <= n:
-        two_in_power = power *2
-    return two_in_power
- 
+    powers = []
+    number = 1
+    while number <= n:
+        powers.append(number)
+        number*=2  
+    return powers
