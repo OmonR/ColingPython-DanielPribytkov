@@ -1,13 +1,14 @@
 def solution(arr):
-    largest = -1000
+    largest = -10
     ch = 0
-    maximum_ch = 0
-    for element in arr:
-        if prev == element:
-            curr_rep_len += 1
+    maximus_ch = 0
+    for i in arr:
+        if largest == i:
+            ch += 1
         else:
-            prev = element
-            max_rep_len = max(max_rep_len, curr_rep_len)
-            curr_rep_len = 1
+            largest = i
+            maximus_ch = max(ch, maximus_ch)
+            ch = 1
+    maximus_ch = max(ch, maximus_ch)
 
-    return max_rep_len
+    return maximus_ch
