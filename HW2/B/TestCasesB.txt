@@ -1,7 +1,7 @@
 INPUT:
 1+1=2
 OUTPUT:
-one+one2
+one+one=2
 ---------------
 INPUT:
 111
